@@ -1,11 +1,22 @@
-# Markdown to HTML Converter
+## シミュレーション
+![シミュレーション](file_converter.gif)
 
+#" 目次
+
+1. [概要](#概要)
+2. [使い方](#使い方)
+3. [必要な環境](#必要な環境)
+4. [セットアップ手順](#セットアップ手順)
+5. [コードの説明](#コードの説明)
+6. [サンプルファイルの例](#サンプルファイル)
+
+
+## 概要
 このスクリプトは、**Markdown ファイル (.md)** を **HTML ファイル (.html)** に変換する Python プログラムです。  
 Markdown ファイルを入力し、HTML ファイルを出力します。
 
----
 
-## 🚀 **使い方**
+## **使い方**
 
 以下のコマンドをターミナルで実行してください：
 
@@ -13,7 +24,7 @@ Markdown ファイルを入力し、HTML ファイルを出力します。
 python file-converter.py <入力ファイル>.md <出力ファイル>.html
 ```
 
-### ✅ **使用例**
+### 使用例
 
 `sample.md` を `output.html` に変換する場合：
 
@@ -21,16 +32,14 @@ python file-converter.py <入力ファイル>.md <出力ファイル>.html
 python file-converter.py sample.md output.html
 ```
 
----
 
-## 📋 **必要な環境**
+## **必要な環境**
 
 - **Python 3.6以上**
 - **`markdown` パッケージ**
 
----
 
-## 🛠 **セットアップ手順**
+## **セットアップ手順**
 
 1. **リポジトリをクローン**：
 
@@ -58,9 +67,8 @@ python file-converter.py sample.md output.html
    python file-converter.py <入力ファイル>.md <出力ファイル>.html
    ```
 
----
 
-## 🧩 **コードの説明**
+## **コードの説明**
 
 このスクリプトは、以下の手順で動作します：
 
@@ -69,9 +77,8 @@ python file-converter.py sample.md output.html
 3. **`markdown` パッケージ**を使用して、Markdown テキストを HTML に変換します。
 4. **ファイル操作時のエラー**を適切に処理します。
 
----
 
-## 📄 **サンプルファイル：`sample.md`**
+## **サンプルファイル**
 
 以下のテキストを **`sample.md`** という名前で保存してください：
 
@@ -98,9 +105,8 @@ python file-converter.py sample.md output.html
 📧 **メール:** example@example.com
 ```
 
----
 
-## 📄 **生成される HTML ファイル：`output.html` の例**
+プログラム実行後、、、
 
 ```html
 <h1>タイトル: 私のブログ</h1>
